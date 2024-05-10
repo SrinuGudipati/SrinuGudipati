@@ -1,0 +1,61 @@
+git config --list
+git config --global -e
+git global --user.name "SRINUGUDIPATI"
+git global --user.email"gsrinu.dba07@gmail.com"
+
+Srinu@DESKTOP-4NA57J1 MINGW64 ~
+$ git help config
+
+Srinu@DESKTOP-4NA57J1 MINGW64 ~
+$ git help --config
+add.ignoreErrors
+add.interactive.useBuiltin
+advice.addEmbeddedRepo
+advice.addEmptyPathspec
+advice.addIgnoredFile
+advice.amWorkDir
+advice.ambiguousFetchRefspec
+advice.checkoutAmbiguousRemoteBranchName
+advice.commitBeforeMerge
+advice.detachedHead
+advice.diverging
+advice.fetchShowForcedUpdates
+advice.forceDeleteBranch
+advice.graftFileDeprecated
+advice.ignoredHook
+advice.implicitIdentity
+advice.mergeConflict
+advice.nameTooLong
+advice.nestedTag
+advice.objectNameWarning
+advice.pushAlreadyExists
+advice.pushFetchFirst
+advice.pushNeedsForce
+advice.pushNonFFCurrent
+advice.pushNonFFMatching
+advice.pushNonFastForward
+advice.pushRefNeedsUpdate
+advice.pushUnqualifiedRefName
+advice.pushUpdateRejected
+advice.refSyntax
+advice.resetNoRefresh
+advice.resolveConflict
+advice.rmHints
+advice.sequencerInUse
+advice.setUpstreamFailure
+advice.skippedCherryPicks
+advice.statusAheadBehindWarning
+advice.statusHints
+
+
+++++++++++++++How to set Git Default Notepad editor++++++++++++
+git config --global core.editor "notepad++.exe multiInst -nosession"
+
+Srinu@DESKTOP-4NA57J1 MINGW64 ~
+$ git config --global --list
+user.name=SrinuGudipati
+user.email=gsrinu.dba07@gmail.com
+core.editor=notepad++.exe multiInst -nosession
+
+Srinu@DESKTOP-4NA57J1 MINGW64 ~   
+$ git config --global -e
